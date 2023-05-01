@@ -3,17 +3,18 @@ import Slider from '../../Components/Slider/Slider';
 import NavBar from '../../Components/NavBar/NavBar';
 import LandingPage from '../../Components/LandingPage/LandingPage';
 import Missions from '../../Components/Missions/Missions';
-import Footer from '../../Components/Footer/Footer';
+import Footerr from '../../Components/Footerr/Footerr';
+
 
 
 const Home = () => {
     return (
         <div>
-            <NavBar></NavBar>
+            {/* <NavBar></NavBar> */}
 
             <LandingPage></LandingPage>
             <Missions></Missions>
-            <Footer></Footer>
+            {/* <Footerr></Footerr> */}
             {/* <Slider></Slider> */}
         </div>
     );

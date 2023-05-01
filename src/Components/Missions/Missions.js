@@ -6,8 +6,8 @@ import MissionCard from './MissionCard';
 
 const Missions = () => {
     return (
-        <div className='mt-6 mb-6'>
-            <h1 className='text-3xl font-bold text-center my-10'>Our Missions</h1>
+        <div className='mt-6 '>
+            <h1 className='text-4xl font-bold text-center my-10'>Our Missions</h1>
             <MissionCard></MissionCard>
 
 
